@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 2 - Verificador de contraseña</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <h2>Verificador de reglas de contraseña</h2>
+  <label for="password">Contraseña de prueba:</label>
+  <input type="text" id="password" placeholder="Escribe una contraseña...">
+
+  <button onclick="verificarPassword()">Verificar</button>
+
+  <ul id="lista-reglas">
+    <li id="regla-longitud">Mínimo 8 caracteres</li>
+    <li id="regla-digito">Contiene al menos un dígito (0-9)</li>
+    <li id="regla-espacios">Sin espacios en blanco</li>
+  </ul>
+
+  <div id="mensaje-final"></div>
+
+  <p><a href="../index.html">← Volver al menú principal</a></p>
+  <script src="script.js"></script>
+</body>
+</html>
